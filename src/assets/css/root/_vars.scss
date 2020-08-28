@@ -1,0 +1,33 @@
+// Colors
+$clr0: #141414;
+$clr1: #2d2f31;
+$clr2: #182f53;
+$clr3: #395b99;
+$clr4: #6c90d1;
+$clr5: #f0f0e6;
+$clr6: #f1f4f8;
+$clr7: #6701018a;
+$clr8: #011039de;
+$margin6: 0 auto 6px auto;
+
+:root {
+  --navBar-height: 40px;
+  --main-padding: 0.75rem;
+  --brightness: 1;
+
+  --base-color1: 200;
+  --color1-light: hsla(var(--base-color1), 24%, calc(10% + 15% * var(--brightness)), 1);
+  --color1-light-saturation: hsla(var(--base-color1), 40%, calc(10% + 15% * var(--brightness)), 1);
+  --color1-normal: hsla(var(--base-color1), 24%, calc(-15% + 30% * var(--brightness)), 1);
+  --color1-dark: hsla(var(--base-color1), 24%, calc(-5% + 15% * var(--brightness)), 1);
+  --color1-font: hsla(var(--base-color1), 0%, calc(186% + -93% * var(--brightness)), 1);
+  --color1-border: hsla(var(--base-color1), 50%, 50%, 1);
+  --color1-strong: hsla(var(--base-color1), 100%, calc(10% + 15% * var(--brightness)), 1);
+
+  --base-color2: 35;
+  --color2-light: hsla(var(--base-color2), 24%, calc(10% + 15% * var(--brightness)), 1);
+  --color2-normal: hsla(var(--base-color2), 24%, calc(-15% + 30% * var(--brightness)), 1);
+  --color2-dark: hsla(var(--base-color2), 24%, calc(-5% + 15% * var(--brightness)), 1);
+  --color2-font: hsla(var(--base-color2), 0%, calc(186% + -93% * var(--brightness)), 1);
+  --color2-border: hsla(var(--base-color2), 50%, 50%, 1);
+}

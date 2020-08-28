@@ -1,0 +1,7 @@
+.home {
+  @include scrollbar();
+  overflow: auto;
+  height: 100%;
+  $space: 8px;
+  padding: $space;
+}

@@ -1,0 +1,21 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: var(--navBar-height);
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 500;
+  background-color: var(--color1-light);
+  display: flex;
+  justify-content: space-between;
+  .nav-bar-links {
+    .nav-link {
+      color: var(--color1-font);
+      padding: 6px 10px;
+      font-size: 20px;
+    }
+  }
+}
